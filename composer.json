@@ -1,0 +1,44 @@
+{
+    "name": "gourmet/validation"
+    , "description": "Extra validation providers and rules for CakePHP 3"
+    , "type": "cakephp-plugin"
+    , "keywords": [
+        "cakephp"
+        , "gourmet"
+    ]
+    , "homepage": "https://github.com/gourmet/validation"
+    , "license": "MIT"
+    , "authors": [
+        {
+            "name": "Jad Bitar"
+            , "homepage": "http://jadb.io"
+            , "role": "Author"
+        }
+        , {
+            "name": "Others"
+            , "homepage": "https://github.com/gourmet/validation/graphs/contributors"
+        }
+    ]
+    , "support": {
+        "issues": "https://github.com/gourmet/validation/issues"
+        , "source": "https://github.com/gourmet/validation"
+    }
+    , "require": {
+        "cakephp/cakephp": "3.0.*-dev"
+        , "respect/validation": "0.8.*",
+        "ronanguilloux/isocodes": "dev-master"
+    }
+    , "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    }
+    , "autoload": {
+        "psr-4": {
+            "Gourmet\\Validation\\": "src"
+        }
+    }
+    , "autoload-dev": {
+        "psr-4": {
+            "Gourmet\\Validation\\Test\\": "tests"
+        }
+    }
+}
