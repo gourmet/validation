@@ -11,7 +11,7 @@ Extra validation providers and rules for [CakePHP 3]
 Using [Composer]:
 
 ```
-composer require gourmet/validation:dev-master
+composer require gourmet/validation:~1.0
 ```
 
 This plugin does not require to be loaded in bootstrap as it only uses autoloaded classes.
