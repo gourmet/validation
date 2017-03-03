@@ -81,5 +81,5 @@ Copyright (c) 2015, Jad Bitar and licensed under [The MIT License][mit].
 [CakePHP 3]:http://cakephp.org
 [Composer]:http://getcomposer.org
 [mit]:http://www.opensource.org/licenses/mit-license.php
-[respect]:http://respect.li/Validation
+[respect]:http://respect.github.io/Validation
 [isocodes]:https://github.com/ronanguilloux/IsoCodes
